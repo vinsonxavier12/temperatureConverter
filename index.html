@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <title>Temperature Conversion</title>
+</head>
+<body>
+    <h1 class ="heading">TEMPERATURE CONVERTER</h1>
+
+    <div>
+        <p class ="intro">Please be aware there is the absolute zero - the coldest temperature possible in the Universe. It is zero kelvin (-459.67°F, -273.15°C).
+        </p>
+        <div class="container">
+            <div class="row">
+                <h4 class="sub">CONVERSION MADE EASY!</h4>
+                <div class="items col col1">
+                    <ol>
+                        <li>
+                            Find your unit.
+                        </li>
+                        <li>
+                            Enter your value next to it.
+                        </li>
+                        <li>
+                            Get all conversions instantly.
+                        </li>
+                    </ol>
+                </div>
+            <div class="col">
+                <form>
+                    <div class="inputs">
+                    <label for="celsius">CELSIUS: </label><br>
+                    <input type="number" id="celsius" name="celsius" placeholder= "Degree in Celsius (°C)" class="input">
+                    <br>
+                    <label for="fahrenheit">FAHRENHEIT: </label><br>
+                    <input type="number" id="fahrenheit" name="fahrenheit" placeholder= "Degree in Fahrenheit  (°F)" class="input">
+                    <br>
+                    <label for="kelvin">KELVIN: </label><br>
+                    <input type="number" id="kelvin" name="kelvin" placeholder= "Degree in Kelvin (°K)" class="input">
+                </div>
+                </form>
+            </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-danger convert" onclick="refreshInput()">REFRESH</button>
+            </div>
+      
+    <footer class="text-center text-white fixed-bottom footer1">
+        <div class="text-center p-3" style="background-color: rgb(255, 255, 255);">
+            For Education Purpose only. | Made by
+          <a class="link-vinson" href="https://vinsonxavier12.github.io/personal-website-1/">Vinson Xavier.</a>
+        </div>
+      </footer>
+      <script src="myscripts.js"></script>
+</body>
+</html>
